@@ -6,9 +6,11 @@ import { HomePage } from './pages/HomePage'
 import { OffProjectsPage, OnProjectsPage } from './pages/ProjectsChannelPage'
 import { ProjectPage } from './pages/ProjectPage'
 
+const routerBasename = import.meta.env.BASE_URL.replace(/\/$/, '')
+
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={routerBasename || undefined}>
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<HomePage />} />

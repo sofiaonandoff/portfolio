@@ -15,7 +15,13 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173).
+Open [http://localhost:5173/sofia-portfolio/](http://localhost:5173/sofia-portfolio/).
+
+## Deploy (GitHub Pages)
+
+Pushes to `main` run [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml).
+
+Live site: [https://sofiaonandoff.github.io/sofia-portfolio/](https://sofiaonandoff.github.io/sofia-portfolio/)
 
 ## Customize
 
