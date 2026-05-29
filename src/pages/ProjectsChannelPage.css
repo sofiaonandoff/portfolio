@@ -1,0 +1,3 @@
+.channel-page {
+  padding: clamp(3rem, 8vh, 5rem) 0 clamp(5rem, 12vh, 8rem);
+}

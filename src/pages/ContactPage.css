@@ -1,0 +1,141 @@
+.contact-page {
+  padding: clamp(3rem, 8vh, 5rem) 0 clamp(5rem, 12vh, 8rem);
+}
+
+.contact-page__header {
+  margin-bottom: 3rem;
+}
+
+.contact-page__header h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.contact-page__grid {
+  display: grid;
+  grid-template-columns: 1fr minmax(200px, 280px);
+  gap: clamp(2rem, 6vw, 5rem);
+  align-items: start;
+}
+
+.contact-copy__headline {
+  margin: 0;
+  font-size: clamp(1.35rem, 3vw, 1.75rem);
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  max-width: 42ch;
+}
+
+.contact-copy__rule {
+  margin: 1.75rem 0;
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+.contact-copy__paragraph {
+  margin: 0 0 1.25rem;
+  line-height: 1.75;
+  color: var(--text-muted);
+  max-width: 58ch;
+}
+
+.contact-copy__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+.contact-copy__needs-title {
+  margin: 0 0 1rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  color: var(--text-muted);
+}
+
+.contact-copy__needs {
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  max-width: 52ch;
+}
+
+.contact-copy__needs li {
+  position: relative;
+  padding-left: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.contact-copy__needs li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+}
+
+.contact-copy__closing {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.contact-aside__label {
+  margin: 0 0 0.35rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.contact-aside__label:not(:first-child) {
+  margin-top: 2rem;
+}
+
+.contact-aside__email {
+  font-size: 1.1rem;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 2px;
+}
+
+.contact-aside__email:hover {
+  border-color: var(--text);
+}
+
+.contact-aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-aside a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.contact-aside a:hover {
+  color: var(--text);
+}
+
+@media (max-width: 800px) {
+  .contact-page__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-aside {
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+  }
+}
