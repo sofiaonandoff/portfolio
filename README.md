@@ -1,35 +1,71 @@
-# Hyesoo Oh Portfolio (SOFIAONANDOFF)
+# SOFIAONANDOFF | Hyesoo Oh
 
-Adobe Portfolio–inspired personal site built with **Vite**, **React**, and **TypeScript**.
+> **Designer & Researcher** bridging digital logic and physical space.
+> 
+> 🔗 **Portfolio Website:** [https://sofiaonandoff.github.io/portfolio/](https://sofiaonandoff.github.io/portfolio/)
 
-## Features
+---
 
-- Minimal, work-first layout with fixed header navigation
-- Home hero with OFF / ON project sections, dedicated list pages, project detail, about, and contact
-- Sample projects and copy in `src/data/portfolio.ts` (easy to customize)
+## ⚡ Overview
 
-## Getting started
+I am **Hyesoo Oh**, a spatial designer and researcher based in Seoul, South Korea. I explore the boundary where digital thinking meets physical experience. 
 
-```bash
-npm install
-npm run dev
-```
+With a unique academic background in **Architecture** and **Psychology**, my work spans across service planning, human-computer interaction (HCI) research, parametric/computational design, and physical architectural design. I focus on creating spaces and systems that connect how people think, move, feel, and interact.
 
-Open [http://localhost:5173/sofia-portfolio/](http://localhost:5173/sofia-portfolio/).
+---
 
-## Deploy (GitHub Pages)
+## 🛠️ Core Focus & Capabilities
 
-Pushes to `main` run [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml).
+### **OFF: Physical Space & Experience**
+* **Architectural & Spatial Design:** Experience in commercial offices, boutique hospitality, and luxury residential designs.
+* **Parametric & Computational Design:** Deep expertise in Rhino, Grasshopper, and BIM (Revit) for complex geometry, simulation, and digital fabrication.
 
-Live site: [https://sofiaonandoff.github.io/sofia-portfolio/](https://sofiaonandoff.github.io/sofia-portfolio/)
+### **ON: Digital Logic & Research**
+* **Spatial Design Automation:** Developing AI-driven and script-based 3D layout tools to optimize spatial designs.
+* **HCI & UX Research:** Studying 3D spatial interactions, user journeys, and applying psychology-grounded insights to digital workspaces and interfaces.
 
-## Customize
+---
 
-Edit `src/data/portfolio.ts` for your name, bio, social links, and projects. Replace Unsplash image URLs with your own files in `public/` or hosted assets.
+## 💼 Experience
 
-## Build
+* **Officementary** (2024.03 – Present) | *IT Service Planner & Spatial Designer*
+  * Leading IT service planning for office layout optimization.
+  * Developing 3D spatial design automation systems (Python, Rhino, Grasshopper).
+  * Building React-based custom web interfaces and modeling spatial design UX/UI.
+* **WGNB** (2022.03 – 2023.04) | *Spatial Designer*
+  * Designed boutique hospitality and retail projects.
+  * Handled zoning regulations, building permits, and UX-oriented brand experiences.
+* **Seoro Architects** (2020.12 – 2022.03) | *Architectural Designer*
+  * Designed office and commercial projects (e.g., SK Chemicals HQ, Noudit Seoul Forest).
+  * Utilized BIM/Grasshopper modeling and won major design competitions (KC HQ).
+* **JOHO Architecture** (2019.06 – 2020.08) | *Architectural Designer*
+  * Designed luxury hospitality and commercial projects (e.g., Seolhaeone).
+  * Executed parametric design and represented works in international exhibitions.
 
-```bash
-npm run build
-npm run preview
-```
+---
+
+## 🎓 Education
+
+* **Sungkyunkwan University** (2013.03 – 2019.02)
+  * Bachelor of Architecture (5-Year Professional Degree)
+  * Bachelor of Psychology (Double Major)
+* **Hochschule Luzern**, Switzerland (2017.09 – 2018.02)
+  * Exchange Program (Architecture)
+* **Chungbuk Science High School** (2011.03 – 2013.02)
+
+---
+
+## 🔧 Skills & Tools
+
+* **Design & CAD:** Rhino, Grasshopper, SketchUp, Revit, AutoCAD, Adobe CC, Figma, Unreal Engine
+* **Programming:** Python, JavaScript (React), C++ (basic)
+* **Domain:** Computational Design, UX/UI Design, Spatial Logic Modeling, Service Planning
+
+---
+
+## ✉️ Contact & Links
+
+* **Email:** [hyesoooh1@gmail.com](mailto:hyesoooh1@gmail.com)
+* **GitHub:** [@sofiaonandoff](https://github.com/sofiaonandoff)
+* **LinkedIn:** [Hyesoo Oh on LinkedIn](https://www.linkedin.com/in/sofiaonandoff/)
+* **Instagram:** [@hyesoo.oh.167](https://www.instagram.com/hyesoo.oh.167)
