@@ -9,6 +9,9 @@ export const site = {
     'Developing AI-driven Spatial Design Automation',
     'Interested in 3D Spatial Interaction and Human-Computer Interaction (HCI)',
   ],
+  introTitle: 'Bridging the digital and physical worlds.',
+  introSubtitle:
+    'I explore how digital systems can enhance and transform physical environments.',
   email: 'hyesoooh1@gmail.com',
   location: 'Seoul, South Korea',
   social: {

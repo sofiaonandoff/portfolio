@@ -12,11 +12,8 @@ export function HomePage() {
           <p className="hero__eyebrow">Portfolio</p>
           <h1 className="hero__title">{site.fullName}</h1>
           <p className="hero__role">{site.role}</p>
-          <ul className="hero__intro">
-            {site.intro.map((line) => (
-              <li key={line}>{line}</li>
-            ))}
-          </ul>
+          <p className="hero__intro-title">{site.introTitle}</p>
+          <p className="hero__intro-subtitle">{site.introSubtitle}</p>
           <div className="hero__actions">
             <Link to={projectChannels.off.path} className="btn btn--primary">
               OFF PROJECTS
