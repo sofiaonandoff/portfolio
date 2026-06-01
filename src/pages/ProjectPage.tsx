@@ -32,7 +32,7 @@ export function ProjectPage() {
         <div className="project-page__headline">
           <div>
             <p className="project-page__category">
-              {project.category} · {project.year}
+              {project.category} · {project.year} · {project.location}
             </p>
             <h1>{project.title}</h1>
             <p className="project-page__summary">{project.summary}</p>

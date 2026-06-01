@@ -19,7 +19,7 @@ export function ProjectCard({ project }: Props) {
       <div className="project-card__meta">
         <h3>{project.title}</h3>
         <p>
-          {project.category} · {project.year}
+          {project.category} · {project.year} · {project.location}
         </p>
       </div>
     </Link>

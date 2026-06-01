@@ -6,6 +6,7 @@ export type Project = {
   title: string
   category: string
   year: string
+  location: string
   coverImage: string
   summary: string
   description: string

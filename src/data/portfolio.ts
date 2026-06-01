@@ -160,55 +160,333 @@ export const projectChannels = {
 
 export const projects: Project[] = [
   {
-    id: 'pavilion-structure',
+    id: 'dupont-asem-tower-office',
     channel: 'off',
-    title: 'Pavilion Structure',
-    category: 'Architecture',
+    title: 'DuPont Asem Tower Office',
+    category: 'Interior',
     year: '2025',
+    location: 'Seoul, Korea',
     coverImage:
-      'https://images.unsplash.com/photo-1487956382158-bb926065304a?w=1200&q=80',
-    summary: 'Lightweight pavilion exploring structure and openness.',
+      'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80',
+    summary:
+      'Corporate office interior for a global science and innovation company in central Seoul.',
     description:
-      'An architectural study in timber and membrane, balancing shelter with transparency. The design investigates circulation, sight lines, and seasonal use in a public courtyard setting.',
+      `Following the completion of Madang, a Korean-inspired work lounge in DuPont’s Yeoksam office in 2024, the company expanded to ASEM Tower in Samseong-dong with a new 180 PY workplace. Designed as both a flexible lounge and operational office, the space continues DuPont’s exploration of Korean architectural identity. A long narrow entry corridor and a curved exterior window wall guide circulation, culminating in the warmly lit Sarangchae lounge inspired by traditional Korean guest quarters. A central column is integrated with a custom bar-height table and planting, dispersing visual weight and inviting visitors into the lounge.
+
+The curved façade is balanced by a long interior wall separating the Sarangchae and Anchae, the inner workspace for focused tasks. The lounge features a Hanok-inspired ceiling motif, free-form table arrangements, booth seating, and a 130-inch LED screen for events. Deep indigo blue Jjokbit paired with warm orange accents harmonizes with views of the Han River and Seoul skyline. The result is a workplace that is culturally rooted, spatially refined, and emotionally resonant, building on Yeoksam’s identity while asserting its own architectural character.`,
     images: [
-      'https://images.unsplash.com/photo-1487956382158-bb926065304a?w=1600&q=80',
-      'https://images.unsplash.com/photo-1511818966892-7c671c93f4b2?w=1600&q=80',
+      'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80',
+      'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1600&q=80',
     ],
-    tags: ['Architecture', 'Structure', 'Public Space'],
+    tags: ['Interior', 'Corporate Office', 'Workplace'],
   },
   {
-    id: 'atelier-interior',
+    id: 'hyundai-motor-alabama-office',
     channel: 'off',
-    title: 'Atelier Interior',
+    title: 'Hyundai Motor Manufacturing Alabama Office',
+    category: 'Interior',
+    year: '2025',
+    location: 'Alabama, USA',
+    coverImage:
+      'https://images.unsplash.com/photo-1604328698692-f76ea9498e73?w=1200&q=80',
+    summary:
+      'An interior office design project for Hyundai Motor Manufacturing Alabama, creating a connected workplace that reflects the flow, precision, and collaborative culture of automotive production.',
+    description:
+      `This project proposes a new office interior for Hyundai Motor Manufacturing Alabama, designed to strengthen the connection between office employees and the broader manufacturing environment.
+
+The design concept focuses on translating the rhythm and structure of automotive production into a spatial experience. By reflecting the sequential flow of stamping, welding, painting, and general assembly, the office layout allows employees to feel more closely connected to the vehicle manufacturing process.
+
+The space is planned to support both focused individual work and cross-departmental collaboration, with open workstations, meeting rooms, and shared areas arranged to encourage communication between teams.
+
+Rather than treating the office as a separate administrative zone, the design positions it as an integrated workplace that represents Hyundai’s manufacturing identity, technical precision, and sense of community.`,
+    images: [
+      'https://images.unsplash.com/photo-1604328698692-f76ea9498e73?w=1600&q=80',
+      'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1600&q=80',
+    ],
+    tags: ['Interior', 'Corporate Office', 'Manufacturing'],
+  },
+  {
+    id: 'seolhaeone-seolhaebyuldam',
+    channel: 'off',
+    title: 'Seolhaeone Seolhaebyuldam',
+    category: 'Architecture & Interior',
+    year: '2020',
+    location: 'Yangyang, Korea',
+    coverImage:
+      'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&q=80',
+    summary:
+      'Luxury lodging within a coastal resort, integrating architecture and interior as one experience.',
+    description:
+      'Architectural and interior design for Seolhaebyuldam—a premium lodging unit at Seolhaeone Resort in Yangyang. The project integrates refined residential scale with resort amenities, emphasizing views, privacy, and a cohesive material language across building envelope and interior finishes.',
+    images: [
+      'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600&q=80',
+      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1600&q=80',
+    ],
+    tags: ['Architecture', 'Interior', 'Hospitality', 'Resort'],
+  },
+  {
+    id: 'stardoc-office',
+    channel: 'off',
+    title: 'Stardoc Office',
+    category: 'Interior',
+    year: '2026',
+    location: 'Seoul, Korea',
+    coverImage:
+      'https://images.unsplash.com/photo-1551194402-cacd0b1636ad?w=1200&q=80',
+    summary:
+      'A compact workplace for a healthcare marketing startup, designed to balance operational efficiency, brand identity, and a welcoming first impression within a highly optimized footprint.',
+    description:
+      `Interior design for Stardoc, a healthcare marketing startup, creating an efficient and brand-focused workplace within a compact footprint. The space includes a welcoming lounge, flexible meeting and content-production area, meeting room, focus room, and open workstations, carefully planned to maximize functionality and seating capacity.
+
+A clean palette of white and light gray establishes a calm and professional atmosphere, while the brand’s signature red is introduced as a distinctive accent throughout the office. Particular attention was given to the visitor experience, with the entrance lounge designed to create a comfortable and inviting first impression. The result is a workplace that balances brand expression, collaboration, and everyday efficiency.`,
+    images: [
+      'https://images.unsplash.com/photo-1551194402-cacd0b1636ad?w=1600&q=80',
+      'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1600&q=80',
+    ],
+    tags: ['Interior', 'Healthcare', 'Workplace'],
+  },
+  {
+    id: 'sk-chemical-headquarter',
+    channel: 'off',
+    title: 'SK Chemical Headquarter',
+    category: 'Interior',
+    year: '2021',
+    location: 'Pangyo, Korea',
+    coverImage:
+      'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200&q=80',
+    summary:
+      'Workplace transformation for SK Chemical Headquarters, focused on fostering a more dynamic, people-centered work environment. Through a master-planning approach, the project reimagined the workplace to support diverse work styles, encourage interaction, and enhance employee well-being across the organization.',
+    description:
+      `Interior workplace renovation for SK Chemical Headquarters in Pangyo. The project aimed to revitalize organizational culture by creating a flexible and people-centered environment where individuals can work autonomously and perform at their best.
+
+A master-plan strategy leveraged the existing atrium as the social and visual heart of the building, opening connections across floors and introducing a sense of energy throughout the workplace. The concept of the “Chemical Trail” established a continuous circulation network that links key destinations and encourages spontaneous interaction, while a series of green amenities support communication, collaboration, and employee well-being.
+
+The workplace was restructured around a spectrum of work modes—including Focus, Collaborate, and Social—providing a variety of settings that accommodate both individual and team-based activities. Moving beyond a conventional office layout, the design delivers a more agile and engaging work environment that supports concentration, collaboration, and meaningful connections across the organization.`,
+    images: [
+      'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1600&q=80',
+      'https://images.unsplash.com/photo-1497215728101-856f4ea90366?w=1600&q=80',
+    ],
+    tags: ['Interior', 'Corporate Office', 'Headquarters'],
+  },
+  {
+    id: 'qnity-seoul-office',
+    channel: 'off',
+    title: 'Qnity Seoul Office',
     category: 'Interior',
     year: '2024',
+    location: 'Seoul, Korea',
     coverImage:
-      'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&q=80',
-    summary: 'Workspace interior with flexible zones and natural light.',
+      'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80',
+    summary:
+      'Agile workplace design for Qnity Korea, transforming a traditional office into a flexible and collaborative environment.',
     description:
-      'Interior concept for a small creative studio: modular partitions, acoustic zoning, and a material palette that shifts from work to rest within one open floor plate.',
+      `The agile office at Qnity Korea, part of a global initiative, was created by transforming a rigid workspace and cramped reception area into an open, flexible environment that supports various work and meeting formats. A large LED screen allows for town halls and virtual meetings, while focused workspaces and meeting rooms are arranged deeper within the office for private tasks. Movable furniture provides flexibility for different needs.
+
+Incorporating traditional Korean elements was key, as the office frequently hosts international visitors and regional factory employees. The design reflects a Korean courtyard concept (Madang), with traditional colors, eco-friendly materials, and plants to promote well-being. Sound-absorbing panels help manage noise in the open areas, and the ceiling was opened where possible to enhance the sense of space. This agile office combines functionality and flexibility while maintaining both global standards and a local touch.`,
     images: [
-      'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1600&q=80',
-      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600&q=80',
+      'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80',
+      'https://images.unsplash.com/photo-1497215842964-222b430787f6?w=1600&q=80',
     ],
-    tags: ['Interior', 'Workspace', 'Lighting'],
+    tags: ['Interior', 'Technology', 'Workplace'],
   },
   {
-    id: 'immersive-passage',
+    id: 'sinjeonri-stay-jipyungzip-2',
     channel: 'off',
-    title: 'Immersive Passage',
-    category: 'Spatial Experience',
-    year: '2024',
+    title: 'Sinjeonri Stay (Jipyungzip 2)',
+    category: 'Architecture & Interior',
+    year: '2023',
+    location: 'Goheung, Korea',
     coverImage:
-      'https://images.unsplash.com/photo-1493863647120-7a672bfda960?w=1200&q=80',
-    summary: 'Sequential spatial narrative through light and scale.',
+      'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&q=80',
+    summary:
+      'Boutique accommodation combining local character with contemporary hospitality design.',
     description:
-      'A spatial experience installation guiding visitors through compression and release. Light, sound, and proportion shape perception and pace along a curated path.',
+      'Architecture and interior design for Sinjeonri Stay (Jipyungzip 2) in Goheung—a boutique stay project emphasizing intimate scale and spatial storytelling. Work included zoning analysis, permitting support, and UX-oriented spatial branding from concept through documentation.',
     images: [
-      'https://images.unsplash.com/photo-1493863647120-7a672bfda960?w=1600&q=80',
-      'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1600&q=80',
+      'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1600&q=80',
+      'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1600&q=80',
     ],
-    tags: ['Spatial Experience', 'Installation', 'Narrative'],
+    tags: ['Architecture', 'Interior', 'Hospitality', 'Boutique Stay'],
+  },
+  {
+    id: 'rio-tinto-seoul-office',
+    channel: 'off',
+    title: 'Rio Tinto Seoul Office (Design)',
+    category: 'Interior',
+    year: '2024',
+    location: 'Seoul, Korea',
+    coverImage:
+      'https://images.unsplash.com/photo-1497215842964-222b430787f6?w=1200&q=80',
+    summary:
+      'Interior design for Rio Tinto’s Seoul office, inspired by the concept of TERRA',
+    description:
+      `Designed for Rio Tinto’s Seoul office, the project draws inspiration from TERRA, a concept rooted in the company’s relationship with the earth and the extraction of natural resources. The workplace incorporates warm color palettes and natural materials inspired by soil, stone, and minerals, creating an atmosphere of stability, authenticity, and connection to nature.
+
+The design emphasizes materiality through a rich combination of stone, wood, and metal finishes, expressing the resources that define Rio Tinto’s business while enhancing both visual and tactile experiences. Layering becomes a key spatial strategy, with architectural elements, materials, and colors carefully composed to create depth and dimension throughout the workplace.
+
+By translating the complexity and diversity of Rio Tinto’s global operations into a cohesive spatial language, the office delivers a refined work environment that balances corporate identity, material richness, and contemporary workplace functionality.`,
+    images: [
+      'https://images.unsplash.com/photo-1497215842964-222b430787f6?w=1600&q=80',
+      'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1600&q=80',
+    ],
+    tags: ['Interior', 'Corporate Office', 'Design Development'],
+  },
+  {
+    id: 'ministry-planning-budget-sejong',
+    channel: 'off',
+    title: 'Ministry of Planning and Budget Office Renovation',
+    category: 'Interior',
+    year: '2026',
+    location: 'Government Complex Sejong, Korea',
+    coverImage:
+      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80',
+    summary:
+      'Office renovation for the Ministry of Planning and Budget in Sejong, reimagining the government workplace as a spatial journey of Strategy, Collaboration, and Vision.',
+    description:
+      `The renovation of the Ministry of Planning and Budget office was guided by the vision of creating a workplace where the philosophy of planning is embedded within the built environment. Organized around the themes of Strategy, Collaboration, and Vision, the project transforms the office into a dynamic ecosystem that supports communication, innovation, and knowledge sharing.
+
+The 4th floor serves as the symbolic gateway of the ministry through the MPB Hall, a representative space that communicates the institution’s identity and strategic direction. On the 5th floor, the MPB Synergy Agora functions as a collaborative platform where ministries, departments, and individuals can connect, exchange ideas, and work together. Additional programs, including a Smart Work Center with childcare support and departmental collaboration zones, further encourage flexibility and interaction.
+
+The 6th floor is dedicated to reflection, learning, and renewal. A Digital Book Café provides an environment that supports focused thinking, continuous learning, and employee well-being beyond everyday work tasks. Together, these interventions create a cohesive workplace experience that reflects the ministry’s mission while promoting collaboration, innovation, and organizational culture.`,
+    images: [
+      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&q=80',
+      'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80',
+    ],
+    tags: ['Interior', 'Government', 'Renovation'],
+  },
+  {
+    id: 'noudit-seoul-forest',
+    channel: 'off',
+    title: 'NOUDIT Seoul Forest',
+    category: 'Architecture',
+    year: '2021',
+    location: 'Seoul, Korea',
+    coverImage:
+      'https://images.unsplash.com/photo-1487958449943-2429e8be8628?w=1200&q=80',
+    summary:
+      'Architectural design for NOUDIT Seoul Forest, a mixed-use creative workplace in Seongsu-dong.',
+    description:
+      `NOUDIT Seoul Forest was conceived as a contemporary workplace that reflects the unique character of Seongsu-dong, where industrial heritage and emerging creative industries coexist. Located adjacent to the elevated railway near Ttukseom Station, the project was designed to engage both the pedestrian scale of the neighborhood and the broader urban perspective from passing trains.
+
+The façade is organized into three distinct volumes, each expressing different programs within the building while creating a recognizable architectural identity. At the lower levels, brick was selected as the primary material, drawing from the language of Seongsu’s existing industrial buildings and reinforcing a human-scaled relationship with the street. The composition of entrances and massing allows the building to be naturally perceived and experienced by pedestrians.
+
+The middle levels incorporate a multifunctional parking structure designed to accommodate events and social gatherings, transforming a typically utilitarian program into an active urban feature. Highly visible from the elevated railway, this portion of the building was intended to capture attention and spark curiosity among visitors and commuters.
+
+Upper floors are dedicated to creative office environments, providing flexible workspaces and expansive terraces that encourage interaction between indoor and outdoor environments. Together, the building’s layered programs, material expression, and urban presence create a dynamic destination that embodies the diversity and creative energy of contemporary Seongsu-dong.`,
+    images: [
+      'https://images.unsplash.com/photo-1487958449943-2429e8be8628?w=1600&q=80',
+      'https://images.unsplash.com/photo-1511818966892-7c671c93f4b2?w=1600&q=80',
+    ],
+    tags: ['Architecture', 'Commercial', 'Urban'],
+  },
+  {
+    id: 'seolhaeone-clubhouse-renovation',
+    channel: 'off',
+    title: 'Seolhaeone Clubhouse Renovation',
+    category: 'Architecture',
+    year: '2020',
+    location: 'Yangyang, Korea',
+    coverImage:
+      'https://images.unsplash.com/photo-1590490360182-c33af577934d?w=1200&q=80',
+    summary:
+      'Clubhouse renovation for a coastal golf and resort community.',
+    description:
+      'Architectural renovation of the Seolhaeone Clubhouse in Yangyang, refreshing hospitality and member amenities while respecting the existing resort fabric. Structural and spatial interventions improve circulation, program flexibility, and connection to the surrounding landscape.',
+    images: [
+      'https://images.unsplash.com/photo-1590490360182-c33af577934d?w=1600&q=80',
+      'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600&q=80',
+    ],
+    tags: ['Architecture', 'Renovation', 'Resort', 'Hospitality'],
+  },
+  {
+    id: 'nine-bridges-pergola-exhibition',
+    channel: 'off',
+    title: 'Nine Bridges Pergola Exhibition',
+    category: 'Exhibition',
+    year: '2019',
+    location: 'Hungary',
+    coverImage:
+      'https://images.unsplash.com/photo-1511818966892-7c671c93f4b2?w=1200&q=80',
+    summary:
+      'Parametric pavilion exhibited internationally with 3D-printed mockups.',
+    description:
+      `The Nine Bridges Pergola was conceived as a contemporary interpretation of a site shaped by the presence of a 600-year-old Chinese hackberry tree, once regarded as a sacred landmark. Drawing inspiration from natural growth patterns and algorithmic forms, the design reorients the site around the memory of the tree, creating an architectural expression rooted in both nature and cultural significance.
+
+At the core of the project is a custom-developed dual-duct system that combines structural performance and environmental control into a single integrated framework. Ventilation ducts are embedded within the primary structural members, while insulated layers between inner and outer shells help regulate temperature and prevent condensation, allowing the pavilion to maintain a comfortable indoor environment throughout seasonal changes.
+
+The organic geometry required an advanced fabrication and assembly process involving double-curved steel structures and hundreds of uniquely shaped glass panels. More than 440 custom glass units and a network of integrated environmental systems were precisely manufactured and assembled across multiple countries, demanding exceptional coordination and engineering accuracy.
+
+The result is a sculptural architectural landmark that seamlessly merges natural inspiration, environmental performance, and digital fabrication technologies, transforming a commemorative site into an immersive spatial experience.`,
+    images: [
+      'https://images.unsplash.com/photo-1511818966892-7c671c93f4b2?w=1600&q=80',
+      'https://images.unsplash.com/photo-1487956382158-bb926065304a?w=1600&q=80',
+    ],
+    tags: ['Exhibition', 'Parametric Design', 'Pavilion', '3D Printing'],
+  },
+  {
+    id: 'kc-headquarter',
+    channel: 'off',
+    title: 'KC Headquarter',
+    category: 'Architecture',
+    year: '2022',
+    location: 'Seoul, Korea',
+    coverImage:
+      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80',
+    summary:
+      'Competition-winning headquarters architecture in Seoul.',
+    description:
+      `Led and won the design competition for KC headquarters in Seoul. KC Headquarters was designed as a flexible and future-oriented workplace that supports both organizational growth and employee interaction. Located near Samseong Station, the project responds to the evolving urban context through a modular planning system based on a 4.2m × 4.2m grid, enabling efficient space utilization and future expansion.
+
+The design optimizes office layouts and parking capacity while incorporating open staircases, voids, and shared spaces that encourage communication and spontaneous interaction among employees. A rooftop amenity space further enhances the workplace experience while allowing for potential future growth. The result is a highly adaptable headquarters that balances operational efficiency, flexibility, and a collaborative organizational culture.`,
+    images: [
+      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&q=80',
+      'https://images.unsplash.com/photo-1487958449943-2429e8be8628?w=1600&q=80',
+    ],
+    tags: ['Architecture', 'Headquarters', 'Competition', 'BIM'],
+  },
+  {
+    id: 'hecto-group-office',
+    channel: 'off',
+    title: 'Hecto Group Office (Design)',
+    category: 'Interior',
+    year: '2025',
+    location: 'Seoul, Korea',
+    coverImage:
+      'https://images.unsplash.com/photo-1497215728101-856f4ea90366?w=1200&q=80',
+    summary:
+      'Design-phase office interior for Hecto Group in Seoul.',
+    description:
+      `The Hecto Group Office was designed around the idea of light as a source of direction, inspiration, and daily energy. Drawing from the brand slogan—"like the sun that brightens the darkness and illuminates everyday life"—the design is guided by three concepts: Solar Orientation, Filtered Sun, and First Sunlight.
+
+Spatial planning is organized through a layered radial geometry, where overlapping circular forms naturally guide movement and create a fluid workplace experience. This circulation strategy is reinforced by a solar-oriented flow, allowing the spatial sequence to unfold as if following the path of light throughout the office.
+
+The workplace program is structured around the concept of Daily Rhythm, supporting different modes of work and recovery throughout the day. Fast Tempo zones, including workstations and focus rooms, enable concentration and deep work. Slow Down areas, such as meeting rooms, quick meeting spaces, and hot desks, facilitate collaboration and smooth transitions between tasks. Pause zones, including lounges and cafés, provide moments of rest and renewal, helping employees recharge before returning to the next phase of their workday.
+
+Through the integration of light-inspired forms, intuitive circulation, and rhythm-based workplace planning, the office creates a balanced environment that supports focus, collaboration, and well-being.`,
+    images: [
+      'https://images.unsplash.com/photo-1497215728101-856f4ea90366?w=1600&q=80',
+      'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80',
+    ],
+    tags: ['Interior', 'Corporate Office', 'Design Development'],
+  },
+  {
+    id: 'multi-unit-house-gwacheon',
+    channel: 'off',
+    title: 'Multi-unit House',
+    category: 'Architecture',
+    year: '2020',
+    location: 'Gwacheon, Korea',
+    coverImage:
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80',
+    summary:
+      'Multi-unit residential architecture balancing privacy and daylight in Gwacheon.',
+    description:
+      'Architectural design for a multi-unit house in Gwacheon, optimizing unit layouts, shared circulation, and facade composition within suburban residential regulations. The project balances privacy, daylight, and efficient floor area across multiple dwelling units.',
+    images: [
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&q=80',
+    ],
+    tags: ['Architecture', 'Residential', 'Multi-unit Housing'],
   },
   {
     id: 'service-blueprint',
@@ -216,6 +494,7 @@ export const projects: Project[] = [
     title: 'Service Blueprint',
     category: 'Service Planning',
     year: '2025',
+    location: 'Seoul, Korea',
     coverImage:
       'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80',
     summary: 'End-to-end service journey for a spatial design platform.',
@@ -233,6 +512,7 @@ export const projects: Project[] = [
     title: 'Spatial HCI Study',
     category: 'Research',
     year: '2024',
+    location: 'Seoul, Korea',
     coverImage:
       'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&q=80',
     summary: 'Research on 3D interaction patterns in design tools.',
@@ -250,6 +530,7 @@ export const projects: Project[] = [
     title: 'Automation Strategy',
     category: 'Strategy',
     year: '2023',
+    location: 'Seoul, Korea',
     coverImage:
       'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80',
     summary: 'Strategic roadmap for AI-driven spatial design workflows.',
