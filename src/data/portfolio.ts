@@ -158,7 +158,7 @@ export const projectChannels = {
   }
 >
 
-export const projects: Project[] = [
+const rawProjects: Project[] = [
   {
     id: 'dupont-asem-tower-office',
     channel: 'off',
@@ -642,6 +642,21 @@ Through the integration of light-inspired forms, intuitive circulation, and rhyt
     tags: ['Strategy', 'AI', 'Spatial Design'],
   },
 ]
+
+const base = import.meta.env.BASE_URL || '/'
+const cleanBase = base.endsWith('/') ? base : base + '/'
+
+function fixPath(p: string): string {
+  if (p.startsWith('http://') || p.startsWith('https://')) return p
+  const cleanPath = p.startsWith('/') ? p.slice(1) : p
+  return cleanBase + cleanPath
+}
+
+export const projects: Project[] = rawProjects.map((project) => ({
+  ...project,
+  coverImage: fixPath(project.coverImage),
+  images: project.images.map(fixPath),
+}))
 
 export function getProjectsByChannel(channel: ProjectChannel): Project[] {
   return projects.filter((p) => p.channel === channel)
