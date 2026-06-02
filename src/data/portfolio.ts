@@ -595,58 +595,196 @@ Through the integration of light-inspired forms, intuitive circulation, and rhyt
     tags: ['Architecture', 'Residential', 'Multi-unit Housing'],
   },
   {
-    id: 'service-blueprint',
+    id: 'officemm-strategy',
     channel: 'on',
-    title: 'Service Blueprint',
-    category: 'Service Planning',
+    title: 'OFFICEmm (Strategy)',
+    category: 'Strategy',
     year: '2025',
     location: 'Seoul, Korea',
     coverImage:
-      'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80',
-    summary: 'End-to-end service journey for a spatial design platform.',
+      '/images/on-projects/2025 OFFICEmm - Strategy - Seoul, Korea - Strategy, Service Design, User Journey Mapping, UX Planning, Front-end Development, Back-end Development/OFFICEmm 00 main.png',
+    summary:
+      'Strategy and service design for an office planning platform—defining user journeys, product structure, and a buildable roadmap across front-end and back-end.',
     description:
-      'Service planning mapping touchpoints across discovery, collaboration, and delivery. Aligns user needs with backstage operations and digital touchpoints.',
+      `A strategy and service planning project focused on shaping a digital product for office layout planning and optimization.
+
+Work included defining the service concept and key value propositions, mapping end-to-end user journeys, and translating insights into a UX planning framework that could be implemented across both front-end and back-end.
+
+Deliverables connected strategy to execution: a structured information architecture, core flows and screens, and a development-ready plan that aligned stakeholders on scope, milestones, and system requirements.`,
     images: [
-      'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=80',
-      'https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=1600&q=80',
+      //'/images/on-projects/2025 OFFICEmm - Strategy - Seoul, Korea - Strategy, Service Design, User Journey Mapping, UX Planning, Front-end Development, Back-end Development/OFFICEmm 00 main.png',
+      '/images/on-projects/2025 OFFICEmm - Strategy - Seoul, Korea - Strategy, Service Design, User Journey Mapping, UX Planning, Front-end Development, Back-end Development/OFFICEmm (1).jpg',
+      '/images/on-projects/2025 OFFICEmm - Strategy - Seoul, Korea - Strategy, Service Design, User Journey Mapping, UX Planning, Front-end Development, Back-end Development/OFFICEmm (2).jpg',
+      '/images/on-projects/2025 OFFICEmm - Strategy - Seoul, Korea - Strategy, Service Design, User Journey Mapping, UX Planning, Front-end Development, Back-end Development/OFFICEmm (3).jpg',
+      '/images/on-projects/2025 OFFICEmm - Strategy - Seoul, Korea - Strategy, Service Design, User Journey Mapping, UX Planning, Front-end Development, Back-end Development/OFFICEmm (4).jpg',
+      '/images/on-projects/2025 OFFICEmm - Strategy - Seoul, Korea - Strategy, Service Design, User Journey Mapping, UX Planning, Front-end Development, Back-end Development/OFFICEmm (5).jpg',
     ],
-    tags: ['Service Design', 'Journey Map', 'Planning'],
+    tags: [
+      'Strategy',
+      'Service Design',
+      'User Journey Mapping',
+      'UX Planning',
+      'Front-end Development',
+      'Back-end Development',
+    ],
   },
   {
-    id: 'spatial-hci-study',
+    id: '9gram-service-planning',
     channel: 'on',
-    title: 'Spatial HCI Study',
-    category: 'Research',
+    title: '9gram (Service Planning)',
+    category: 'Service Planning',
     year: '2024',
     location: 'Seoul, Korea',
     coverImage:
-      'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&q=80',
-    summary: 'Research on 3D interaction patterns in design tools.',
+      '/images/on-projects/2024 9gram - Service Planning - Seoul, Korea - Service Design, User Journey Mapping, UX Planning, Front-end Development, AI Integration/9gram 00 main.png',
+    summary:
+      'Service planning and UX design for a digital service—mapping user journeys and building an implementable prototype with AI integration.',
     description:
-      'Qualitative and quantitative study of how designers navigate 3D space in digital environments. Findings inform interaction models for spatial design automation tools.',
+      `A service planning project that translated a concept into a concrete, testable user experience.
+
+Work included service design framing, user journey mapping, and UX planning, followed by front-end prototyping to validate core flows. The project also explored how AI-supported features could be integrated into the experience—balancing guidance, automation, and user control.`,
     images: [
-      'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1600&q=80',
-      'https://images.unsplash.com/photo-1517694712202-8dd999c4d024?w=1600&q=80',
+      //'/images/on-projects/2024 9gram - Service Planning - Seoul, Korea - Service Design, User Journey Mapping, UX Planning, Front-end Development, AI Integration/9gram 00 main.png',
+      '/images/on-projects/2024 9gram - Service Planning - Seoul, Korea - Service Design, User Journey Mapping, UX Planning, Front-end Development, AI Integration/9gram (1).jpg',
+      '/images/on-projects/2024 9gram - Service Planning - Seoul, Korea - Service Design, User Journey Mapping, UX Planning, Front-end Development, AI Integration/9gram (2).jpg',
+      '/images/on-projects/2024 9gram - Service Planning - Seoul, Korea - Service Design, User Journey Mapping, UX Planning, Front-end Development, AI Integration/9gram (3).jpg',
+      '/images/on-projects/2024 9gram - Service Planning - Seoul, Korea - Service Design, User Journey Mapping, UX Planning, Front-end Development, AI Integration/9gram (4).jpg',
+      '/images/on-projects/2024 9gram - Service Planning - Seoul, Korea - Service Design, User Journey Mapping, UX Planning, Front-end Development, AI Integration/9gram (5).jpg',
     ],
-    tags: ['HCI', 'Research', '3D Interaction'],
+    tags: [
+      'Service Design',
+      'User Journey Mapping',
+      'UX Planning',
+      'Front-end Development',
+      'AI Integration',
+    ],
   },
   {
-    id: 'automation-strategy',
+    id: 'office-layout-automation-research',
     channel: 'on',
-    title: 'Automation Strategy',
+    title: 'Office Layout Automation (Research)',
+    category: 'Research',
+    year: '2026',
+    location: 'Seoul, Korea',
+    coverImage:
+      '/images/on-projects/2026 Office Layout Automation - Research- Seoul, Korea - Computational Design, Algorithm Design, Grasshopper Development, Rule-based Space Planning, Workflow Optimization/00 main.png',
+    summary:
+      'Computational design research for rule-based office planning—developing algorithms and Grasshopper workflows to automate layout generation.',
+    description:
+      `Research and development exploring how office layouts can be generated through computational rules and repeatable workflows.
+
+Work focused on defining a rule-based space-planning logic, translating spatial constraints into algorithms, and implementing core workflows in Grasshopper. The goal was to reduce manual iteration time, improve consistency, and make planning decisions traceable and adjustable through parameters.`,
+    images: [
+      //'/images/on-projects/2026 Office Layout Automation - Research- Seoul, Korea - Computational Design, Algorithm Design, Grasshopper Development, Rule-based Space Planning, Workflow Optimization/00 main.png',
+      '/images/on-projects/2026 Office Layout Automation - Research- Seoul, Korea - Computational Design, Algorithm Design, Grasshopper Development, Rule-based Space Planning, Workflow Optimization/00 main.png',
+      '/images/on-projects/2026 Office Layout Automation - Research- Seoul, Korea - Computational Design, Algorithm, Grasshopper Development, Rule-based Space Planning, Workflow Optimization/Layout 00 main.png',
+    ],
+    tags: [
+      'Computational Design',
+      'Algorithm',
+      'Grasshopper Development',
+      'Rule-based Space Planning',
+      'Workflow Optimization',
+    ],
+  },
+  {
+    id: 'onandoff-disquiet-makers-club',
+    channel: 'on',
+    title: 'ONandOFF (Disquiet Product Maker’s Club)',
     category: 'Strategy',
     year: '2023',
     location: 'Seoul, Korea',
     coverImage:
-      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80',
-    summary: 'Strategic roadmap for AI-driven spatial design workflows.',
+      '/images/on-projects/2023 ONandOFF - Strategy - Seoul, Korea - Disquiet Product Maker’s Club/ONandOFF 00 main.png',
+    summary:
+      'Product ideation and iterative prototyping exploring UX-driven planning and XR-based spatial interfaces for embodied interaction with AI.',
     description:
-      'Strategy framing how AI-assisted tools integrate into architectural workflows—defining capabilities, guardrails, and collaboration between designers and automation.',
+      `Participated in Disquiet Product Maker’s Club, focusing on UX-driven product planning and immersive interaction.
+
+Highlights:
+- Participated in product ideation and authored weekly maker logs
+- Explored UX-driven product planning through iterative prototyping and user testing
+- Planned a prototype XR-based service for immersive user experience
+- Explored how spatial interfaces in XR environments can influence the use of AI and support embodied interaction`,
     images: [
-      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1600&q=80',
-      'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1600&q=80',
+      //'/images/on-projects/2023 ONandOFF - Strategy - Seoul, Korea - Disquiet Product Maker’s Club/ONandOFF 00 main.png',
+      '/images/on-projects/2023 ONandOFF - Strategy - Seoul, Korea - Disquiet Product Maker’s Club/ONandOFF 00 main.png',
     ],
-    tags: ['Strategy', 'AI', 'Spatial Design'],
+    tags: [
+      'Disquiet Product Maker’s Club',
+      'Strategy',
+      'Product Ideation',
+      'UX Planning',
+      'Prototyping',
+      'User Testing',
+      'XR',
+      'Spatial Interface',
+      'Embodied Interaction',
+      'AI',
+    ],
+  },
+  {
+    id: 'office-x-service-planning',
+    channel: 'on',
+    title: 'Office X (Service Planning)',
+    category: 'Service Planning',
+    year: '2026',
+    location: 'Seoul, Korea',
+    coverImage:
+      '/images/on-projects/2026 Office X - Service Planning - Seoul, Korea - Service Design, User Journey Mapping, UX Planning, Strategy/Office X 00 main.png',
+    summary:
+      'Service planning and strategic framing for an office-related service—mapping journeys and translating insights into a coherent UX plan.',
+    description:
+      `A service planning project combining strategy and UX planning to shape a clear end-to-end user experience.
+
+Work included service design framing, user journey mapping, and planning core UX flows that could be carried into prototyping and delivery. The focus was on turning ambiguous requirements into a structured service concept, prioritized features, and a practical roadmap.`,
+    images: [
+      //'/images/on-projects/2026 Office X - Service Planning - Seoul, Korea - Service Design, User Journey Mapping, UX Planning, Strategy/Office X 00 main.png',
+      '/images/on-projects/2026 Office X - Service Planning - Seoul, Korea - Service Design, User Journey Mapping, UX Planning, Strategy/Office X (1).jpg',
+      '/images/on-projects/2026 Office X - Service Planning - Seoul, Korea - Service Design, User Journey Mapping, UX Planning, Strategy/Office X (2).jpg',
+      '/images/on-projects/2026 Office X - Service Planning - Seoul, Korea - Service Design, User Journey Mapping, UX Planning, Strategy/Office X (3).jpg',
+      '/images/on-projects/2026 Office X - Service Planning - Seoul, Korea - Service Design, User Journey Mapping, UX Planning, Strategy/Office X (4).jpg',
+      '/images/on-projects/2026 Office X - Service Planning - Seoul, Korea - Service Design, User Journey Mapping, UX Planning, Strategy/Office X (5).jpg',
+    ],
+    tags: ['Service Design', 'User Journey Mapping', 'UX Planning', 'Strategy'],
+  },
+  {
+    id: 'ccus-co2-submarine-pipeline-route-optimization',
+    channel: 'on',
+    title: 'A route optimization model for CO₂ submarine pipelines at CCUS sites',
+    category: 'Competition / Algorithm',
+    year: '2023',
+    location: 'Seoul, Korea',
+    coverImage:
+      '/images/on-projects/2023 CO₂ submarine pipelines - Seoul, Korea - GeoData Science AI Competition, Python, Grasshopper, QGIS/CO₂ submarine pipelines 00 main.png',
+    summary:
+      'GeoData Science AI Competition (KIGAM) finalist and Idea Award winner—developed a route optimization model integrating geo-big data and marine ecology constraints.',
+    description:
+      `GeoData Science AI Competition
+Organizer: KIGAM (한국지질자원연구원)
+
+Result:
+- Finalist
+- Idea Award winner (Python, Rhino, QGIS)
+
+Work:
+Developed a route optimization model for CO₂ submarine pipelines at CCUS sites, integrating geo-big data and marine ecology factors. Built and tested algorithms in Python, combined with spatial workflows using Rhino/Grasshopper and QGIS to evaluate constraints and compare route candidates.`,
+    images: [
+      //'/images/on-projects/2023 CO₂ submarine pipelines - Seoul, Korea - GeoData Science AI Competition, Python, Grasshopper, QGIS/CO₂ submarine pipelines 00 main.png',
+      '/images/on-projects/2023 CO₂ submarine pipelines - Seoul, Korea - GeoData Science AI Competition, Python, Grasshopper, QGIS/CO₂ submarine pipelines 00 main.png',
+    ],
+    tags: [
+      'GeoData Science AI Competition',
+      'KIGAM',
+      'Finalist',
+      'Idea Award',
+      'Algorithm Design',
+      'Python Development',
+      'Grasshopper',
+      'QGIS',
+      'CCUS',
+      'Optimization',
+    ],
   },
 ]
 
