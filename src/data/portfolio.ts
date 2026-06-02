@@ -395,37 +395,6 @@ By translating the complexity and diversity of Rio Tinto’s global operations i
     tags: ['Interior', 'Corporate Office', 'Design Development'],
   },
   {
-    id: 'ministry-planning-budget-sejong',
-    channel: 'off',
-    title: 'Ministry of Planning and Budget Office Renovation',
-    category: 'Interior',
-    year: '2026',
-    location: 'Government Complex Sejong, Korea',
-    coverImage:
-      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 00 main.png',
-    summary:
-      'Office renovation for the Ministry of Planning and Budget in Sejong, reimagining the government workplace as a spatial journey of Strategy, Collaboration, and Vision.',
-    description:
-      `The renovation of the Ministry of Planning and Budget office was guided by the vision of creating a workplace where the philosophy of planning is embedded within the built environment. Organized around the themes of Strategy, Collaboration, and Vision, the project transforms the office into a dynamic ecosystem that supports communication, innovation, and knowledge sharing.
-
-The 4th floor serves as the symbolic gateway of the ministry through the MPB Hall, a representative space that communicates the institution’s identity and strategic direction. On the 5th floor, the MPB Synergy Agora functions as a collaborative platform where ministries, departments, and individuals can connect, exchange ideas, and work together. Additional programs, including a Smart Work Center with childcare support and departmental collaboration zones, further encourage flexibility and interaction.
-
-The 6th floor is dedicated to reflection, learning, and renewal. A Digital Book Café provides an environment that supports focused thinking, continuous learning, and employee well-being beyond everyday work tasks. Together, these interventions create a cohesive workplace experience that reflects the ministry’s mission while promoting collaboration, innovation, and organizational culture.`,
-    images: [
-      //'/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 00 main.png',
-      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 01.png',
-      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 02.png',
-      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 03.png',
-      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 04.png',
-      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 05.png',
-      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 06.png',
-      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 07.png',
-      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 08.png',
-      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 09.png',
-    ],
-    tags: ['Interior', 'Government', 'Renovation'],
-  },
-  {
     id: 'noudit-seoul-forest',
     channel: 'off',
     title: 'NOUDIT Seoul Forest',
@@ -456,6 +425,37 @@ Upper floors are dedicated to creative office environments, providing flexible w
       '/images/off-projects/2021 NOUDIT Seoul Forest, Seoul, Korea- Architecture/NOUDIT 09.jpg',
     ],
     tags: ['Architecture', 'Commercial', 'Urban'],
+  },
+  {
+    id: 'ministry-planning-budget-sejong',
+    channel: 'off',
+    title: 'Ministry of Planning and Budget Office Renovation',
+    category: 'Interior',
+    year: '2026',
+    location: 'Government Complex Sejong, Korea',
+    coverImage:
+      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 00 main.png',
+    summary:
+      'Office renovation for the Ministry of Planning and Budget in Sejong, reimagining the government workplace as a spatial journey of Strategy, Collaboration, and Vision.',
+    description:
+      `The renovation of the Ministry of Planning and Budget office was guided by the vision of creating a workplace where the philosophy of planning is embedded within the built environment. Organized around the themes of Strategy, Collaboration, and Vision, the project transforms the office into a dynamic ecosystem that supports communication, innovation, and knowledge sharing.
+
+The 4th floor serves as the symbolic gateway of the ministry through the MPB Hall, a representative space that communicates the institution’s identity and strategic direction. On the 5th floor, the MPB Synergy Agora functions as a collaborative platform where ministries, departments, and individuals can connect, exchange ideas, and work together. Additional programs, including a Smart Work Center with childcare support and departmental collaboration zones, further encourage flexibility and interaction.
+
+The 6th floor is dedicated to reflection, learning, and renewal. A Digital Book Café provides an environment that supports focused thinking, continuous learning, and employee well-being beyond everyday work tasks. Together, these interventions create a cohesive workplace experience that reflects the ministry’s mission while promoting collaboration, innovation, and organizational culture.`,
+    images: [
+      //'/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 00 main.png',
+      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 01.png',
+      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 02.png',
+      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 03.png',
+      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 04.png',
+      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 05.png',
+      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 06.png',
+      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 07.png',
+      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 08.png',
+      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 09.png',
+    ],
+    tags: ['Interior', 'Government', 'Renovation'],
   },
   {
     id: 'seolhaeone-clubhouse-renovation',
