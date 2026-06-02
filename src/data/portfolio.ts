@@ -175,7 +175,7 @@ const rawProjects: Project[] = [
 
 The curved façade is balanced by a long interior wall separating the Sarangchae and Anchae, the inner workspace for focused tasks. The lounge features a Hanok-inspired ceiling motif, free-form table arrangements, booth seating, and a 130-inch LED screen for events. Deep indigo blue Jjokbit paired with warm orange accents harmonizes with views of the Han River and Seoul skyline. The result is a workplace that is culturally rooted, spatially refined, and emotionally resonant, building on Yeoksam’s identity while asserting its own architectural character.`,
     images: [
-      '/images/off-projects/2025 DuPont Asem Tower Office, Seoul, Korea - Interior/dupont 00 main.jpg',
+      //'/images/off-projects/2025 DuPont Asem Tower Office, Seoul, Korea - Interior/dupont 00 main.jpg',
       '/images/off-projects/2025 DuPont Asem Tower Office, Seoul, Korea - Interior/dupont 01.jpg',
       '/images/off-projects/2025 DuPont Asem Tower Office, Seoul, Korea - Interior/dupont 02.jpg',
       '/images/off-projects/2025 DuPont Asem Tower Office, Seoul, Korea - Interior/dupont 03.jpg',
@@ -208,7 +208,7 @@ The space is planned to support both focused individual work and cross-departmen
 
 Rather than treating the office as a separate administrative zone, the design positions it as an integrated workplace that represents Hyundai’s manufacturing identity, technical precision, and sense of community.`,
     images: [
-      '/images/off-projects/2025 Hyundai Motor Manufacturing Alabama Office, Alabama, USA - Interior/HMMA 00 main.png',
+      //'/images/off-projects/2025 Hyundai Motor Manufacturing Alabama Office, Alabama, USA - Interior/HMMA 00 main.png',
       '/images/off-projects/2025 Hyundai Motor Manufacturing Alabama Office, Alabama, USA - Interior/HMMA 01.png',
       '/images/off-projects/2025 Hyundai Motor Manufacturing Alabama Office, Alabama, USA - Interior/HMMA 02.png',
       '/images/off-projects/2025 Hyundai Motor Manufacturing Alabama Office, Alabama, USA - Interior/HMMA 03 Diagram.jpg',
@@ -236,7 +236,7 @@ Rather than treating the office as a separate administrative zone, the design po
     description:
       'Architectural and interior design for Seolhaebyuldam—a premium lodging unit at Seolhaeone Resort in Yangyang. The project integrates refined residential scale with resort amenities, emphasizing views, privacy, and a cohesive material language across building envelope and interior finishes.',
     images: [
-      '/images/off-projects/2020 Seolhaeone Seolhaebyuldam, Yangyang, Korea- Architecture, Interior/Seolhaebyuldam 00 main.jpg',
+      //'/images/off-projects/2020 Seolhaeone Seolhaebyuldam, Yangyang, Korea- Architecture, Interior/Seolhaebyuldam 00 main.jpg',
       '/images/off-projects/2020 Seolhaeone Seolhaebyuldam, Yangyang, Korea- Architecture, Interior/Seolhaebyuldam 01.jpg',
       '/images/off-projects/2020 Seolhaeone Seolhaebyuldam, Yangyang, Korea- Architecture, Interior/Seolhaebyuldam 02.jpg',
       '/images/off-projects/2020 Seolhaeone Seolhaebyuldam, Yangyang, Korea- Architecture, Interior/Seolhaebyuldam 03 plan.jpeg',
@@ -265,7 +265,7 @@ Rather than treating the office as a separate administrative zone, the design po
 
 A clean palette of white and light gray establishes a calm and professional atmosphere, while the brand’s signature red is introduced as a distinctive accent throughout the office. Particular attention was given to the visitor experience, with the entrance lounge designed to create a comfortable and inviting first impression. The result is a workplace that balances brand expression, collaboration, and everyday efficiency.`,
     images: [
-      '/images/off-projects/2026 Stardoc Office, Seoul, Korea - Interior/Stardoc 00 main.jpg',
+      //'/images/off-projects/2026 Stardoc Office, Seoul, Korea - Interior/Stardoc 00 main.jpg',
       '/images/off-projects/2026 Stardoc Office, Seoul, Korea - Interior/Stardoc 01.jpg',
       '/images/off-projects/2026 Stardoc Office, Seoul, Korea - Interior/Stardoc 02.jpg',
       '/images/off-projects/2026 Stardoc Office, Seoul, Korea - Interior/Stardoc 03.jpg',
@@ -296,7 +296,7 @@ A master-plan strategy leveraged the existing atrium as the social and visual he
 
 The workplace was restructured around a spectrum of work modes—including Focus, Collaborate, and Social—providing a variety of settings that accommodate both individual and team-based activities. Moving beyond a conventional office layout, the design delivers a more agile and engaging work environment that supports concentration, collaboration, and meaningful connections across the organization.`,
     images: [
-      '/images/off-projects/2021 SK Chemical Headquarter, Pangyo, Korea - Interior/SK Chemical 00 main.jpg',
+      //'/images/off-projects/2021 SK Chemical Headquarter, Pangyo, Korea - Interior/SK Chemical 00 main.jpg',
       '/images/off-projects/2021 SK Chemical Headquarter, Pangyo, Korea - Interior/SK Chemical 01.jpeg',
       '/images/off-projects/2021 SK Chemical Headquarter, Pangyo, Korea - Interior/SK Chemical 02 diagram.jpg',
       '/images/off-projects/2021 SK Chemical Headquarter, Pangyo, Korea - Interior/SK Chemical 03 diagram.jpg',
@@ -325,7 +325,7 @@ The workplace was restructured around a spectrum of work modes—including Focus
 
 Incorporating traditional Korean elements was key, as the office frequently hosts international visitors and regional factory employees. The design reflects a Korean courtyard concept (Madang), with traditional colors, eco-friendly materials, and plants to promote well-being. Sound-absorbing panels help manage noise in the open areas, and the ceiling was opened where possible to enhance the sense of space. This agile office combines functionality and flexibility while maintaining both global standards and a local touch.`,
     images: [
-      '/images/off-projects/2024 Qnity Seoul Office, Seoul, Korea - Interior/dupont 00 main.jpg',
+      //'/images/off-projects/2024 Qnity Seoul Office, Seoul, Korea - Interior/dupont 00 main.jpg',
       '/images/off-projects/2024 Qnity Seoul Office, Seoul, Korea - Interior/dupont 01.jpg',
       '/images/off-projects/2024 Qnity Seoul Office, Seoul, Korea - Interior/dupont 02.jpg',
       '/images/off-projects/2024 Qnity Seoul Office, Seoul, Korea - Interior/dupont 03.jpg',
@@ -352,7 +352,7 @@ Incorporating traditional Korean elements was key, as the office frequently host
     description:
       'Architecture and interior design for Sinjeonri Stay (Jipyungzip 2) in Goheung—a boutique stay project emphasizing intimate scale and spatial storytelling. Work included zoning analysis, permitting support, and UX-oriented spatial branding from concept through documentation.',
     images: [
-      '/images/off-projects/2023 Sinjeonri Stay (Jipyungzip 2), Goheung, Korea - Architecture, Interior/Sinjeonri Stay 00 main.png',
+      //'/images/off-projects/2023 Sinjeonri Stay (Jipyungzip 2), Goheung, Korea - Architecture, Interior/Sinjeonri Stay 00 main.png',
       '/images/off-projects/2023 Sinjeonri Stay (Jipyungzip 2), Goheung, Korea - Architecture, Interior/Sinjeonri Stay 01.png',
       '/images/off-projects/2023 Sinjeonri Stay (Jipyungzip 2), Goheung, Korea - Architecture, Interior/Sinjeonri Stay 02.png',
       '/images/off-projects/2023 Sinjeonri Stay (Jipyungzip 2), Goheung, Korea - Architecture, Interior/Sinjeonri Stay 03.png',
@@ -381,7 +381,7 @@ The design emphasizes materiality through a rich combination of stone, wood, and
 
 By translating the complexity and diversity of Rio Tinto’s global operations into a cohesive spatial language, the office delivers a refined work environment that balances corporate identity, material richness, and contemporary workplace functionality.`,
     images: [
-      '/images/off-projects/2024 Rio Tinto Seoul Office(Design), Seoul, Korea - Interior/Rio Tinto 00 main.png',
+      //'/images/off-projects/2024 Rio Tinto Seoul Office(Design), Seoul, Korea - Interior/Rio Tinto 00 main.png',
       '/images/off-projects/2024 Rio Tinto Seoul Office(Design), Seoul, Korea - Interior/Rio Tinto 01 diagram.png',
       '/images/off-projects/2024 Rio Tinto Seoul Office(Design), Seoul, Korea - Interior/Rio Tinto 02.png',
       '/images/off-projects/2024 Rio Tinto Seoul Office(Design), Seoul, Korea - Interior/Rio Tinto 03.png',
@@ -412,7 +412,7 @@ The 4th floor serves as the symbolic gateway of the ministry through the MPB Hal
 
 The 6th floor is dedicated to reflection, learning, and renewal. A Digital Book Café provides an environment that supports focused thinking, continuous learning, and employee well-being beyond everyday work tasks. Together, these interventions create a cohesive workplace experience that reflects the ministry’s mission while promoting collaboration, innovation, and organizational culture.`,
     images: [
-      '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 00 main.png',
+      //'/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 00 main.png',
       '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 01.png',
       '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 02.png',
       '/images/off-projects/2026 Ministry of Planning and Budget Office Renovation, Government Complex Sejong, Korea - Interior/Government Complex 03.png',
@@ -433,7 +433,7 @@ The 6th floor is dedicated to reflection, learning, and renewal. A Digital Book 
     year: '2021',
     location: 'Seoul, Korea',
     coverImage:
-      '/images/off-projects/2021 NOUDIT Seoul Forest, Seoul, Korea- Architecture/NOUDIT 01.jpg',
+      '/images/off-projects/2021 NOUDIT Seoul Forest, Seoul, Korea- Architecture/NOUDIT 00 main.jpg',
     summary:
       'Architectural design for NOUDIT Seoul Forest, a mixed-use creative workplace in Seongsu-dong.',
     description:
@@ -446,7 +446,14 @@ The middle levels incorporate a multifunctional parking structure designed to ac
 Upper floors are dedicated to creative office environments, providing flexible workspaces and expansive terraces that encourage interaction between indoor and outdoor environments. Together, the building’s layered programs, material expression, and urban presence create a dynamic destination that embodies the diversity and creative energy of contemporary Seongsu-dong.`,
     images: [
       '/images/off-projects/2021 NOUDIT Seoul Forest, Seoul, Korea- Architecture/NOUDIT 01.jpg',
+      '/images/off-projects/2021 NOUDIT Seoul Forest, Seoul, Korea- Architecture/NOUDIT 02.jpg',
       '/images/off-projects/2021 NOUDIT Seoul Forest, Seoul, Korea- Architecture/NOUDIT 03.jpg',
+      '/images/off-projects/2021 NOUDIT Seoul Forest, Seoul, Korea- Architecture/NOUDIT 04.jpg',
+      '/images/off-projects/2021 NOUDIT Seoul Forest, Seoul, Korea- Architecture/NOUDIT 05.jpg',
+      '/images/off-projects/2021 NOUDIT Seoul Forest, Seoul, Korea- Architecture/NOUDIT 06.jpg',
+      '/images/off-projects/2021 NOUDIT Seoul Forest, Seoul, Korea- Architecture/NOUDIT 07.jpg',
+      '/images/off-projects/2021 NOUDIT Seoul Forest, Seoul, Korea- Architecture/NOUDIT 08.jpg',
+      '/images/off-projects/2021 NOUDIT Seoul Forest, Seoul, Korea- Architecture/NOUDIT 09.jpg',
     ],
     tags: ['Architecture', 'Commercial', 'Urban'],
   },
@@ -464,7 +471,7 @@ Upper floors are dedicated to creative office environments, providing flexible w
     description:
       'Architectural renovation of the Seolhaeone Clubhouse in Yangyang, refreshing hospitality and member amenities while respecting the existing resort fabric. Structural and spatial interventions improve circulation, program flexibility, and connection to the surrounding landscape.',
     images: [
-      '/images/off-projects/2020 Seolhaeone Clubhouse Renovation, Yangyang, Korea- Architecture/Seolhaeone 00 main.jpg',
+      //'/images/off-projects/2020 Seolhaeone Clubhouse Renovation, Yangyang, Korea- Architecture/Seolhaeone 00 main.jpg',
       '/images/off-projects/2020 Seolhaeone Clubhouse Renovation, Yangyang, Korea- Architecture/Seolhaeone 01.jpg',
       '/images/off-projects/2020 Seolhaeone Clubhouse Renovation, Yangyang, Korea- Architecture/Seolhaeone 02.jpg',
       '/images/off-projects/2020 Seolhaeone Clubhouse Renovation, Yangyang, Korea- Architecture/Seolhaeone 03 diagram mass development.jpg',
@@ -497,7 +504,7 @@ The organic geometry required an advanced fabrication and assembly process invol
 
 The result is a sculptural architectural landmark that seamlessly merges natural inspiration, environmental performance, and digital fabrication technologies, transforming a commemorative site into an immersive spatial experience.`,
     images: [
-      '/images/off-projects/2019 Nine Bridges Pergola Exhibition, Hungary- Exhibition/Nine Bridges Pergola 00 main.jpg',
+      //'/images/off-projects/2019 Nine Bridges Pergola Exhibition, Hungary- Exhibition/Nine Bridges Pergola 00 main.jpg',
       '/images/off-projects/2019 Nine Bridges Pergola Exhibition, Hungary- Exhibition/Nine Bridges Pergola 01.jpg',
       '/images/off-projects/2019 Nine Bridges Pergola Exhibition, Hungary- Exhibition/Nine Bridges Pergola 02.jpg',
     ],
@@ -519,7 +526,7 @@ The result is a sculptural architectural landmark that seamlessly merges natural
 
 The design optimizes office layouts and parking capacity while incorporating open staircases, voids, and shared spaces that encourage communication and spontaneous interaction among employees. A rooftop amenity space further enhances the workplace experience while allowing for potential future growth. The result is a highly adaptable headquarters that balances operational efficiency, flexibility, and a collaborative organizational culture.`,
     images: [
-      '/images/off-projects/2022 KC Headquarter, Seoul, Korea - Architecture/KC HQ 00 main.png',
+      //'/images/off-projects/2022 KC Headquarter, Seoul, Korea - Architecture/KC HQ 00 main.png',
       '/images/off-projects/2022 KC Headquarter, Seoul, Korea - Architecture/KC HQ 01 diagram.jpg',
       '/images/off-projects/2022 KC Headquarter, Seoul, Korea - Architecture/KC HQ 02 준주거 상향 전.png',
       '/images/off-projects/2022 KC Headquarter, Seoul, Korea - Architecture/KC HQ 03 준주거 상향 후.png',
@@ -552,7 +559,7 @@ The workplace program is structured around the concept of Daily Rhythm, supporti
 
 Through the integration of light-inspired forms, intuitive circulation, and rhythm-based workplace planning, the office creates a balanced environment that supports focus, collaboration, and well-being.`,
     images: [
-      '/images/off-projects/2025 Hecto Group Office(Design), Seoul, Korea- Interior/Hecto 00 main.png',
+      //'/images/off-projects/2025 Hecto Group Office(Design), Seoul, Korea- Interior/Hecto 00 main.png',
       '/images/off-projects/2025 Hecto Group Office(Design), Seoul, Korea- Interior/Hecto 01 Material Board.jpg',
       '/images/off-projects/2025 Hecto Group Office(Design), Seoul, Korea- Interior/Hecto 02.png',
       '/images/off-projects/2025 Hecto Group Office(Design), Seoul, Korea- Interior/Hecto 03.png',
@@ -579,7 +586,7 @@ Through the integration of light-inspired forms, intuitive circulation, and rhyt
     description:
       'Architectural design for a multi-unit house in Gwacheon, optimizing unit layouts, shared circulation, and facade composition within suburban residential regulations. The project balances privacy, daylight, and efficient floor area across multiple dwelling units.',
     images: [
-      '/images/off-projects/2020 Multi-unit House, Gwacheon, Korea- Architecture/Multi-unit House 00 main.png',
+      //'/images/off-projects/2020 Multi-unit House, Gwacheon, Korea- Architecture/Multi-unit House 00 main.png',
       '/images/off-projects/2020 Multi-unit House, Gwacheon, Korea- Architecture/Multi-unit House 01.jpg',
       '/images/off-projects/2020 Multi-unit House, Gwacheon, Korea- Architecture/Multi-unit House 02.png',
       '/images/off-projects/2020 Multi-unit House, Gwacheon, Korea- Architecture/Multi-unit House 03.png',
