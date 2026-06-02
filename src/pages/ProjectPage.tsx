@@ -1,10 +1,27 @@
 import { Link, useParams } from 'react-router-dom'
+import { useState, useEffect } from 'react'
 import { getChannelPath, getProject } from '../data/portfolio'
 import './ProjectPage.css'
 
 export function ProjectPage() {
   const { projectId } = useParams()
   const project = projectId ? getProject(projectId) : undefined
+  const [aspectRatios, setAspectRatios] = useState<Record<string, number>>({})
+
+  useEffect(() => {
+    if (!project) return
+    setAspectRatios({}) // reset when project changes
+    project.images.forEach((src) => {
+      const img = new Image()
+      img.src = src
+      img.onload = () => {
+        setAspectRatios((prev) => ({
+          ...prev,
+          [src]: img.naturalWidth / img.naturalHeight,
+        }))
+      }
+    })
+  }, [project])
 
   if (!project) {
     return (
@@ -18,6 +35,38 @@ export function ProjectPage() {
   }
 
   const listPath = getChannelPath(project.channel)
+
+  // Split description by double newlines into paragraphs
+  const paragraphs = project.description.split('\n\n').filter((p) => p.trim())
+  const introParagraph = paragraphs[0] || ''
+  const remainingParagraphs = paragraphs.slice(1)
+
+  // Interleave remaining paragraphs into the gallery images
+  const N = project.images.length
+  const M = remainingParagraphs.length
+  const groupSize = M > 0 ? Math.ceil(N / (M + 1)) : N
+
+  const galleryItems: Array<
+    | { type: 'image'; src: string }
+    | { type: 'text'; text: string }
+  > = []
+
+  for (let i = 0; i < N; i++) {
+    galleryItems.push({ type: 'image', src: project.images[i] })
+
+    const nextImgIndex = i + 1
+    if (M > 0 && nextImgIndex % groupSize === 0 && nextImgIndex < N) {
+      const pIndex = Math.floor(nextImgIndex / groupSize) - 1
+      if (pIndex < M) {
+        galleryItems.push({ type: 'text', text: remainingParagraphs[pIndex] })
+      }
+    }
+  }
+
+  const insertedCount = Math.floor(N / groupSize)
+  for (let j = insertedCount; j < M; j++) {
+    galleryItems.push({ type: 'text', text: remainingParagraphs[j] })
+  }
 
   return (
     <article className="project-page">
@@ -43,16 +92,41 @@ export function ProjectPage() {
             ))}
           </ul>
         </div>
-        <p className="project-page__description">{project.description}</p>
+        {introParagraph && (
+          <p className="project-page__description">{introParagraph}</p>
+        )}
       </div>
 
-      <div className="project-page__gallery">
-        {project.images.map((src, index) => (
-          <figure key={src + index} className="project-page__figure">
-            <img src={src} alt="" loading="lazy" />
-          </figure>
-        ))}
+      <div className="project-page__gallery page-width">
+        {galleryItems.map((item, index) => {
+          if (item.type === 'image') {
+            const aspect = aspectRatios[item.src]
+            // Default to landscape layout (span 2) if not loaded yet
+            const isLandscape = aspect === undefined ? true : aspect >= 1.2
+            const className = isLandscape
+              ? 'project-page__figure project-page__figure--landscape'
+              : 'project-page__figure project-page__figure--portrait'
+
+            return (
+              <figure key={item.src + index} className={className}>
+                <img src={item.src} alt="" loading="lazy" />
+              </figure>
+            )
+          } else {
+            return (
+              <div
+                key={`text-${index}`}
+                className="project-page__editorial-text"
+              >
+                <div className="project-page__editorial-text-inner">
+                  <p>{item.text}</p>
+                </div>
+              </div>
+            )
+          }
+        })}
       </div>
     </article>
   )
 }
+
