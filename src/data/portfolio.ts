@@ -667,18 +667,14 @@ Work included service design framing, user journey mapping, and UX planning, fol
     year: '2026',
     location: 'Seoul, Korea',
     coverImage:
-      '/images/on-projects/2026 Office Layout Automation - Research- Seoul, Korea - Computational Design, Algorithm Design, Grasshopper Development, Rule-based Space Planning, Workflow Optimization/00 main.png',
+      '/images/on-projects/2026 Office Layout Automation - Research- Seoul, Korea - Computational Design, Algorithm, Grasshopper Development, Rule-based Space Planning/Layout 00 main.png',
     summary:
       'Computational design research for rule-based office planning—developing algorithms and Grasshopper workflows to automate layout generation.',
     description:
       `Research and development exploring how office layouts can be generated through computational rules and repeatable workflows.
 
 Work focused on defining a rule-based space-planning logic, translating spatial constraints into algorithms, and implementing core workflows in Grasshopper. The goal was to reduce manual iteration time, improve consistency, and make planning decisions traceable and adjustable through parameters.`,
-    images: [
-      //'/images/on-projects/2026 Office Layout Automation - Research- Seoul, Korea - Computational Design, Algorithm Design, Grasshopper Development, Rule-based Space Planning, Workflow Optimization/00 main.png',
-      '/images/on-projects/2026 Office Layout Automation - Research- Seoul, Korea - Computational Design, Algorithm Design, Grasshopper Development, Rule-based Space Planning, Workflow Optimization/00 main.png',
-      '/images/on-projects/2026 Office Layout Automation - Research- Seoul, Korea - Computational Design, Algorithm, Grasshopper Development, Rule-based Space Planning, Workflow Optimization/Layout 00 main.png',
-    ],
+    images: [],
     tags: [
       'Computational Design',
       'Algorithm',
@@ -695,7 +691,7 @@ Work focused on defining a rule-based space-planning logic, translating spatial 
     year: '2023',
     location: 'Seoul, Korea',
     coverImage:
-      '/images/on-projects/2023 ONandOFF - Strategy - Seoul, Korea - Disquiet Product Maker’s Club/ONandOFF 00 main.png',
+      '/images/on-projects/2023 ONnOFF - Strategy - Seoul, Korea - Disquiet Product Maker’s Club/ONnOFF 00 main.png',
     summary:
       'Product ideation and iterative prototyping exploring UX-driven planning and XR-based spatial interfaces for embodied interaction with AI.',
     description:
@@ -707,8 +703,12 @@ Highlights:
 - Planned a prototype XR-based service for immersive user experience
 - Explored how spatial interfaces in XR environments can influence the use of AI and support embodied interaction`,
     images: [
-      //'/images/on-projects/2023 ONandOFF - Strategy - Seoul, Korea - Disquiet Product Maker’s Club/ONandOFF 00 main.png',
-      '/images/on-projects/2023 ONandOFF - Strategy - Seoul, Korea - Disquiet Product Maker’s Club/ONandOFF 00 main.png',
+      '/images/on-projects/2023 ONnOFF - Strategy - Seoul, Korea - Disquiet Product Maker’s Club/ONnOFF 01.jpg',
+      '/images/on-projects/2023 ONnOFF - Strategy - Seoul, Korea - Disquiet Product Maker’s Club/ONnOFF 02.png',
+      '/images/on-projects/2023 ONnOFF - Strategy - Seoul, Korea - Disquiet Product Maker’s Club/ONnOFF 03.jpg',
+      '/images/on-projects/2023 ONnOFF - Strategy - Seoul, Korea - Disquiet Product Maker’s Club/ONnOFF 04.png',
+      '/images/on-projects/2023 ONnOFF - Strategy - Seoul, Korea - Disquiet Product Maker’s Club/ONnOFF 05.jpg',
+      '/images/on-projects/2023 ONnOFF - Strategy - Seoul, Korea - Disquiet Product Maker’s Club/ONnOFF 06.png',
     ],
     tags: [
       'Disquiet Product Maker’s Club',
@@ -770,8 +770,10 @@ Result:
 Work:
 Developed a route optimization model for CO₂ submarine pipelines at CCUS sites, integrating geo-big data and marine ecology factors. Built and tested algorithms in Python, combined with spatial workflows using Rhino/Grasshopper and QGIS to evaluate constraints and compare route candidates.`,
     images: [
-      //'/images/on-projects/2023 CO₂ submarine pipelines - Seoul, Korea - GeoData Science AI Competition, Python, Grasshopper, QGIS/CO₂ submarine pipelines 00 main.png',
-      '/images/on-projects/2023 CO₂ submarine pipelines - Seoul, Korea - GeoData Science AI Competition, Python, Grasshopper, QGIS/CO₂ submarine pipelines 00 main.png',
+      '/images/on-projects/2023 CO₂ submarine pipelines - Seoul, Korea - GeoData Science AI Competition, Python, Grasshopper, QGIS/CO₂ submarine pipelines 01.png',
+      '/images/on-projects/2023 CO₂ submarine pipelines - Seoul, Korea - GeoData Science AI Competition, Python, Grasshopper, QGIS/CO₂ submarine pipelines 02.jpg',
+      '/images/on-projects/2023 CO₂ submarine pipelines - Seoul, Korea - GeoData Science AI Competition, Python, Grasshopper, QGIS/CO₂ submarine pipelines 03.jpg',
+      '/images/on-projects/2023 CO₂ submarine pipelines - Seoul, Korea - GeoData Science AI Competition, Python, Grasshopper, QGIS/CO₂ submarine pipelines 04.jpg',
     ],
     tags: [
       'GeoData Science AI Competition',

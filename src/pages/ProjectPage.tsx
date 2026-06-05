@@ -41,8 +41,12 @@ export function ProjectPage() {
   const introParagraph = paragraphs[0] || ''
   const remainingParagraphs = paragraphs.slice(1)
 
+  // Use `coverImage` as hero/cover only.
+  // If the cover image accidentally exists inside `images`, exclude it from the gallery.
+  const bodyImages = project.images.filter((src) => src !== project.coverImage)
+
   // Interleave remaining paragraphs into the gallery images
-  const N = project.images.length
+  const N = bodyImages.length
   const M = remainingParagraphs.length
   const groupSize = M > 0 ? Math.ceil(N / (M + 1)) : N
 
@@ -51,21 +55,28 @@ export function ProjectPage() {
     | { type: 'text'; text: string }
   > = []
 
-  for (let i = 0; i < N; i++) {
-    galleryItems.push({ type: 'image', src: project.images[i] })
+  // No body images: still render editorial text blocks.
+  if (N === 0) {
+    for (let j = 0; j < M; j++) {
+      galleryItems.push({ type: 'text', text: remainingParagraphs[j] })
+    }
+  } else {
+    for (let i = 0; i < N; i++) {
+      galleryItems.push({ type: 'image', src: bodyImages[i] })
 
-    const nextImgIndex = i + 1
-    if (M > 0 && nextImgIndex % groupSize === 0 && nextImgIndex < N) {
-      const pIndex = Math.floor(nextImgIndex / groupSize) - 1
-      if (pIndex < M) {
-        galleryItems.push({ type: 'text', text: remainingParagraphs[pIndex] })
+      const nextImgIndex = i + 1
+      if (M > 0 && nextImgIndex % groupSize === 0 && nextImgIndex <= N) {
+        const pIndex = Math.floor(nextImgIndex / groupSize) - 1
+        if (pIndex < M) {
+          galleryItems.push({ type: 'text', text: remainingParagraphs[pIndex] })
+        }
       }
     }
-  }
 
-  const insertedCount = Math.floor(N / groupSize)
-  for (let j = insertedCount; j < M; j++) {
-    galleryItems.push({ type: 'text', text: remainingParagraphs[j] })
+    const insertedCount = Math.floor(N / groupSize)
+    for (let j = insertedCount; j < M; j++) {
+      galleryItems.push({ type: 'text', text: remainingParagraphs[j] })
+    }
   }
 
   return (
